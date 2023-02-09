@@ -1,0 +1,36 @@
+.services{
+    margin-top: 130px;
+    background-color:#0d1117 ;
+    color: #c9d1d9;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skill-container{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    background-color: #040513;
+    box-shadow: 0 6px 50px rgb(66, 66, 70);
+    border-radius: 5px;
+    padding: 10px;
+}
+.skill-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+    color:#f0f6fc;
+}
+.skill img{
+    align-items: center;
+}

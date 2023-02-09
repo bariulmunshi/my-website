@@ -1,0 +1,31 @@
+.contract {
+    display: flex;
+    gap: 100px;
+    background:#161b22;
+    padding: 130px 200px;
+    margin-top: 96px;
+    color:#e2f6d8;
+}
+
+.contract .section-title {
+    text-align: left;
+    margin: 20px;
+
+}
+.contract input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.section-description {
+    margin-bottom: 30px;
+}

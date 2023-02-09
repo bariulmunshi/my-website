@@ -1,0 +1,31 @@
+.about{
+    margin-top: 100px;
+    background-color:#0d1117 ;
+    color: #c9d1d9;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-description{
+    color: #c9d1d9;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about .info-title{
+    font-size: 18px;
+}
+.info-description{
+    font-size:20px ;
+    font-weight: 700;
+}
