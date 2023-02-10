@@ -101,3 +101,124 @@ main{
     font-size: 50px;
     text-align: center;
 }
+
+/* CSS style for Myself section */
+.about{
+    margin-top: 100px;
+    background-color:#0d1117 ;
+    color: #c9d1d9;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-description{
+    color: #c9d1d9;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about .info-title{
+    font-size: 18px;
+}
+.info-description{
+    font-size:20px ;
+    font-weight: 700;
+}
+
+
+/* css style for Services section */
+.services{
+    margin-top: 130px;
+    background-color:#0d1117 ;
+    color: #c9d1d9;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skill-container{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    background-color: #040513;
+    box-shadow: 0 6px 50px rgb(66, 66, 70);
+    border-radius: 5px;
+    padding: 10px;
+}
+.skill-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.skill-description{
+    color:#f0f6fc;
+}
+.skill img{
+    align-items: center;
+}
+
+/* Css style for Qualification Section */
+.qualification{
+    margin-top: 130px;
+    background-color:#0d1117 ;
+    color: #c9d1d9;
+    border-radius: 10px;
+    padding: 30px 50px;
+}
+.section-title{
+    color: #1155d2;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.qualification-content{
+    display: flex;
+    gap: 25px;
+
+}
+.qualification-div{
+    padding: 50px 20px;
+
+}
+.qualification-div h2{
+    color: #98d211;
+}
+.qualification-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.qualification-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.qualification .qualification-sub-title{
+    color: #ba137a;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.qualification .qualification-description{
+    color:#f0f6fc;
+}
+.qualification-btn{
+    text-align: center;
+}
