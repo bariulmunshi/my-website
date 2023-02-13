@@ -29,13 +29,13 @@
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    
 }
 nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 150px;
     position: fixed;
+    background-color: #0d1117;
 }
 .nav-title{
     font-weight: 800;
@@ -58,22 +58,42 @@ nav ul li a{
      color:#58a6ff;
     text-decoration: none;
 }
+.hero__info {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .hero__info-number {
+    font-size: 50px;
+    font-weight: 700;
+    color:#c9d1d9;
+    margin-bottom: 1rem;
+  }
+  
+  .hero__info-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #58a6ff;
+  }
 /* Banner style */
 .banner{
-    margin: 0 80px 0 150px;
+    margin: 0 70px 0 150px;
     display: flex;
     align-items: center;
-}
-.banner-title{
-    color: #ffffff;
-    font-size: 90px;
-    font-weight: 700;
 }
 .banner-sub-title{
     color: #ffffff;
     font-weight: 600;
     font-size: 40px;
-    margin-bottom:20px ;
+    margin-top:20px ;
+}
+.banner-title{
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
 }
 .banner-discription{
     color:#c9d1d9 ;
