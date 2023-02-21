@@ -93,13 +93,18 @@ nav ul li a{
 .banner-sub-title{
     color: #ffffff;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
     margin-top:20px ;
+    /* padding-left: 130px; */
+    /* text-align: center; */
+    padding-top: 100px;
 }
 .banner-title{
     color: #ffffff;
     font-size: 90px;
     font-weight: 700;
+    padding-left: 70px;
+    /* text-align: center; */
 }
 .banner-discription{
     color:#c9d1d9 ;
@@ -249,12 +254,12 @@ main{
 .qualification-btn{
     text-align: center;
 }
-@media screen and (max-width:576px) {
-    .skill-container{
+@media screen and (max-width: 576px) {
+    .skill-container, .qualification-content {
         flex-direction: column;
     }
+    grid-au
 }
 @media screen and (min-width:577px) and (max-width:992px) {
     
 }
-
