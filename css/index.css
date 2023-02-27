@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
-    color: #fd6e0a ;
+
+.text-primary {
+    color: #fd6e0a;
 }
-.btn-primary{
+
+.btn-primary {
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
@@ -14,252 +16,292 @@
     border: 0;
     border-radius: 5px;
     background-color: #fd6e0a;
-    
+
 }
-.btn-primary a{
+
+.btn-primary a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     padding: 5px;
 
 }
+
 /* header and navigation styles */
-.header{
+.header {
     padding: 5px;
     background-color: #0d1117;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 150px;
     position: fixed;
     background-color: #0d1117;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-.nav-title a{
+
+.nav-title a {
     color: #58a6ff;
     text-decoration: none;
 }
+
 nav ul {
     list-style-type: none;
     align-items: center;
     display: flex;
 
 }
-nav ul li{
+
+nav ul li {
     margin-left: 40px;
 }
-li:hover{
+
+li:hover {
     font-size: 20px;
     font-weight: 600;
-  transform: scale(1.5);
-  color: #ec6d05;
+    transform: scale(1.5);
+    color: #ec6d05;
 }
-nav ul li a{
-     color:#58a6ff;
+
+nav ul li a {
+    color: #58a6ff;
     text-decoration: none;
 }
+
 .hero__info {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-  }
-  
-  .hero__info-number {
+}
+
+.hero__info-number {
     font-size: 50px;
     font-weight: 700;
-    color:#c9d1d9;
+    color: #c9d1d9;
     margin-bottom: 1rem;
-  }
-  
-  .hero__info-title {
+}
+
+.hero__info-title {
     font-size: 20px;
     font-weight: 600;
     color: #58a6ff;
-  }
+}
+
 /* Banner style */
-.banner{
+.banner {
     margin: 0 70px 0 150px;
     display: flex;
     align-items: center;
 }
-.banner-sub-title{
+
+.banner-sub-title {
     color: #ffffff;
     font-weight: 600;
     font-size: 50px;
-    margin-top:20px ;
+    margin-top: 20px;
     /* padding-left: 130px; */
     /* text-align: center; */
     padding-top: 100px;
 }
-.banner-title{
+
+.banner-title {
     color: #ffffff;
     font-size: 90px;
     font-weight: 700;
-    padding-left: 70px;
+    /* padding-left: 70px; */
     /* text-align: center; */
 }
-.banner-discription{
-    color:#c9d1d9 ;
+
+.banner-discription {
+    color: #c9d1d9;
     font-size: 20px;
     margin-bottom: 30px;
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* Blogs section */
-.blogs{
+.blogs {
     margin-top: 50px;
     border-radius: 10px;
     color: #01060e;
     background-color: #ffffff;
 }
-.blogs h2{
+
+.blogs h2 {
     color: #58a6ff;
     margin: 10px 0;
 }
-.blogs h3{
+
+.blogs h3 {
     font-weight: 800;
     font-size: 50px;
     text-align: center;
 }
 
 /* CSS style for Myself section */
-.about{
+.about {
     margin-top: 100px;
-    background-color:#0d1117 ;
+    background-color: #0d1117;
     color: #c9d1d9;
     border-radius: 10px;
     padding: 130px 150px;
 
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 60px;
 }
-.section-description{
+
+.section-description {
     color: #c9d1d9;
     font-size: 20px;
     margin-bottom: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 18px;
 
 }
-.info-description{
-    font-size:20px ;
+
+.info-description {
+    font-size: 20px;
     font-weight: 700;
 }
 
 
 /* css style for Services section */
-.services{
+.services {
     margin-top: 130px;
-    background-color:#0d1117 ;
+    background-color: #0d1117;
     color: #c9d1d9;
     border-radius: 10px;
     padding: 130px 150px;
 }
-.section-title{
+
+.section-title {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
 }
-.skill-container{
+
+.skill-container {
     margin-top: 40px;
     display: flex;
     gap: 30px;
 }
-.skill{
+
+.skill {
     background-color: #040513;
     box-shadow: 0 6px 50px rgb(66, 66, 70);
     border-radius: 5px;
     padding: 10px;
 }
-.skill-title{
+
+.skill-title {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 20px;
 }
-.skill-description{
-    color:#f0f6fc;
+
+.skill-description {
+    color: #f0f6fc;
 }
-.skill img{
+
+.skill img {
     align-items: center;
 }
 
 /* Css style for Qualification Section */
-.qualification{
+.qualification {
     margin-top: 130px;
-    background-color:#0d1117 ;
+    background-color: #0d1117;
     color: #c9d1d9;
     border-radius: 10px;
     padding: 20px 30px;
 }
-.section-title{
+
+.section-title {
     color: #1155d2;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
 }
-.qualification-content{
+
+.qualification-content {
     display: flex;
     gap: 25px;
 
 }
-.qualification-div{
+
+.qualification-div {
     padding: 50px 20px;
 
 }
-.qualification-div h2{
+
+.qualification-div h2 {
     color: #98d211;
 }
-.qualification-item{
+
+.qualification-item {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.qualification-title{
+
+.qualification-title {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.qualification .qualification-sub-title{
+
+.qualification .qualification-sub-title {
     color: #ba137a;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.qualification .qualification-description{
-    color:#f0f6fc;
+
+.qualification .qualification-description {
+    color: #f0f6fc;
 }
-.qualification-btn{
+
+.qualification-btn {
     text-align: center;
 }
+
 @media screen and (max-width: 576px) {
-    .skill-container, .qualification-content {
+
+    .skill-container,
+    .qualification-content {
         flex-direction: column;
     }
+
     grid-au
 }
-@media screen and (min-width:577px) and (max-width:992px) {
-    
-}
+
+@media screen and (min-width:577px) and (max-width:992px) {}
